@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/symptom-notes/static/css/main.c493490a.css",
+    "main.js": "/symptom-notes/static/js/main.3c0c0709.js",
+    "static/js/787.8f4aa871.chunk.js": "/symptom-notes/static/js/787.8f4aa871.chunk.js",
+    "index.html": "/symptom-notes/index.html",
+    "main.c493490a.css.map": "/symptom-notes/static/css/main.c493490a.css.map",
+    "main.3c0c0709.js.map": "/symptom-notes/static/js/main.3c0c0709.js.map",
+    "787.8f4aa871.chunk.js.map": "/symptom-notes/static/js/787.8f4aa871.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c493490a.css",
+    "static/js/main.3c0c0709.js"
+  ]
+}
