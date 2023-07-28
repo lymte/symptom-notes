@@ -4,7 +4,56 @@ const ListPage = () => {
     
     return (
         <div className="main-page">
-            <hr /> <hr />
+            <hr /> 
+
+
+            <hr />
+            <div>
+            <Collapsible label="Bone Pain">
+                <h2>Bone Pain</h2>
+                <p id="overview">Bone pain is a symptom of bone damage caused by inflammation, trauma, changes in internal bone pressure, and other factors that can result in pain.
+The following disease can cause the bone pain</p>
+                <p id="notes"> <span style={{ fontWeight: 'bold' }}>Fatigue fracture</span> 
+                    <br/>Fatigue fractures are fractures of healthy bone tissue. Gradually increasing pain at the site of injury is the main symptom.
+Although chronic injury is the basic cause of fatigue fracture, it has different factors when it occurs in different parts of the body.
+Because the fractures are mostly without displacement, only local firm external fixation and correct rehabilitation function exercises. Proper treatment can lead to good results, but before beginning training, you must have a proper plan to correct wrong movements and posture to avoid further injury. 
+                
+                </p>
+                <p id="notes"> <span style={{ fontWeight: 'bold' }}>Ischemic osteonecrosis</span> 
+                    <br/>Ischemic osteonecrosis is the death of bone cells due to a block of the blood supply.
+Ischemic osteonecrosis is caused by the destruction of the blood supply by different causes.
+The most common sites of ischemic osteonecrosis were the femoral head, head of the humerus, talus, and scaphoid of the wrist. 
+Whether the patients will take the surgeries depend on their specific condition.
+                </p>
+                <p id="notes"> <span style={{ fontWeight: 'bold' }}>leukemia</span> 
+                    <br/>When leukemia cells multiply in large numbers in the bone marrow cavity, there will be high pressure, a large number of leukemia cells will accumulate, and leukemia will appear with bone pain symptoms.
+If a leukemia patient develops bone pain early, it usually occurs in the limb or back.
+Due to the lack of blood supply to the bone area, and cancer cells invading the bone, early leukemia usually causes pain in the bone.
+If you have leukemia, and the early symptom of bone pain, it is recommended to follow the doctor's advice to improve the bone marrow puncture examination to determine the severity of the disease. Then according to the specific situation of the patient, make a specific treatment plan.          
+                </p>
+
+                <p id="notes"> <span style={{ fontWeight: 'bold' }}>Lymphoma</span> 
+                    <br/>Lymphoma is also likely to cause bone pain. Lymphoma usually leads to bone marrow infiltration, if there are more lymphoma cells in the bone marrow, then it may cause the destruction of bone, then it may cause bone pain.
+If the bone pain is caused by lymphoma, and the lymphoma is controlled with active anti-tumor therapy, the bone pain may be relieved or even disappear.          
+                </p>
+
+                <p id="notes">
+                All in all, bone pain is a complex problem and it can be caused by a lot of factors. Sometimes, it may disappear after a few days. But if individuals experience it for a long period of time, it is necessary to go to the hospital for professional treatment to avoid the further development of the disease.
+                </p>
+                
+                
+                
+
+                <p id='citation'>
+                    cite from <a href="https://my.clevelandclinic.org/health/symptoms/24619-bone-pain" style={{textDecoration: "none", color: "gray"}}>Link 1</a>
+                </p>
+
+
+            </Collapsible>
+            </div>
+            
+            
+            <hr />
             <div>
             <Collapsible label="Chest Pain">
                 <h2>Chest Pain</h2>
@@ -63,6 +112,44 @@ const ListPage = () => {
             </Collapsible>
             </div>
 
+
+            <hr />
+            <div>
+            <Collapsible label="Dyspnea">
+                <h2>Dyspnea</h2>
+                <p id="overview">Dyspnea is the symptom that the individual has a feeling of insufficient air or has difficulty in breathing and there are changes in respiratory rate, rhythm, and depth. There are many causes of dyspnea and it is usually complicated.</p>
+                <p id="notes"> <span style={{ fontWeight: 'bold' }}>Asthma</span> 
+                    <br/>Asthma is a disease of the lungs, most are caused by inflammatory stimulation and allergen stimulation.
+Dyspnea occurs because inflammatory stimulation or allergen stimulation can narrow the airway and prevent normal breathing.
+Asthma cannot be cured completely and individuals usually take some medicines to attenuate symptoms. Also, patients can take the surgery called bronchial thermoplastic to help the patients to have less difficulty in breathing.
+
+                
+                </p>
+                <p id="notes"> <span style={{ fontWeight: 'bold' }}>Pneumonia</span> 
+                    <br/>Pneumonia is an infection of the lungs. Pneumonia may cause more phlegm, which may accumulate in the airways and may cause breathing difficulties.
+If the patient has chronic bronchial asthma, heart dysfunction, and other diseases, those may have symptoms of chest tightness and breathing difficulties. In the case of pneumonia, it will cause the symptom to increase and make the patients in a more dangerous situation.
+The treatment of pneumonia usually focuses on infection. Because pneumonia is a disease caused by various pathogenic microorganisms infecting the lung, anti-infective drugs are the first choice for the treatment of pneumonia. Pneumonia is usually not treated with surgery.
+
+                </p>
+                <p id="notes"> <span style={{ fontWeight: 'bold' }}>Phthisis</span> 
+                    <br/>Phthisis is a chronic infectious disease caused by Mycobacterium tuberculosis, which can invade many organs, especially the lungs.
+When the virus enters the lungs, reaches the alveoli, and blocks the bronchial tubes, it will cause them to narrow. At that time, there will be symptoms of cough, hemoptysis, low fever, and other discomfort. If left untreated and the condition gets worse, a large amount of pleural effusion will press on lung tissue, and seriously affects air exchange function, resulting in breathing difficulties.
+
+If diagnosed with phthisis, it is necessary to take the medicines according to the doctor's guidance.
+If it cannot be improved by conservative treatment, lobectomy or pneumonectomy is also necessary (surgery).
+                    
+                </p>
+                
+
+                <p id='citation'>
+                    cite from <a href="https://www.britannica.com/science/tuberculosis/Tuberculosis-through-history#:~:text=In%20the%20medical%20writings%20of,disease%20took%20its%20inexorable%20course." style={{textDecoration: "none", color: "gray"}}>Link 1</a>
+                </p>
+
+
+            </Collapsible>
+            </div>
+
+
             <hr/>
             <div>
             <Collapsible label="Epistaxis">
@@ -112,6 +199,43 @@ If the body temperature is lower than 38.5 ° C, patients can put ice on the for
             </Collapsible>
             </div>
 
+
+            <hr />
+            <div>
+            <Collapsible label="Gatism">
+                <h2>Gatism</h2>
+                <p id="notes"> <span style={{ fontWeight: 'bold' }}>Rectal cancer</span> 
+                    <br/>After rectal cancer, rectal cancer tumors are large, causing damage to the sphincter, or long-term sphincter expansion, so that the anal sphincter loses elasticity and the control of anal function, which finally leads to gatism.
+The main treatment for rectal cancer includes surgery, radiotherapy, and chemotherapy, the specific treatments for the patients are made according to the stages and the sizes of the tumors.
+                </p>
+                <p id="notes"> <span style={{ fontWeight: 'bold' }}>Anal fistula</span> 
+                    <br/>Anal fistulas normally do not lead to gatism. However, if the position of the anal fistula is relatively high, the infection is relatively serious, and the function of the anal sphincter is damaged, temporary anal incontinence may occur, but not urinary incontinence.
+When symptoms such as pus, redness, and pain occur, a Chinese medicine bath, fumigation, or potassium permanganate bath in warm water, with external application of antibacterial ointment can be the treatment for it.
+Surgery can also be used to treat anal fistula.
+                </p>
+                <p id="notes"> <span style={{ fontWeight: 'bold' }}>Spinal cord injury</span> 
+                    <br/>Spinal cord injury occurs mainly in the thoracolumbar region and can lead to gatism.
+Patients need to improve bad living habits, eat more food rich in vitamin B12, and treat primary diseases such as stomach or liver disease. They also need to strengthen their body function through exercise, such as sports training.
+Severe cases may require surgery.
+</p>
+
+                <p id="notes">
+                It is not life-threatening but can cause negativepsychological effects on patients
+Conservative and surgical treatment may be selected according to individual situations.
+</p>
+                
+                
+                
+
+                <p id='citation'>
+                    cite from <a href="https://www.cancer.gov/types/colorectal/patient/rectal-treatment-pdq#:~:text=Rectal%20cancer%20is%20a%20disease,used%20to%20diagnose%20rectal%20cancer." style={{textDecoration: "none", color: "gray"}}>Link 1</a>
+                </p>
+
+
+            </Collapsible>
+            </div>
+
+
             <hr />
             <div>
             <Collapsible label="Headache">
@@ -152,6 +276,8 @@ The occurrence of headaches for leukemia patients may also be caused by leukemia
                 </p>
             </Collapsible>
             </div>
+
+
             <hr />
             <div>
             <Collapsible label="Hemoptysis">
@@ -204,6 +330,97 @@ When abnormal lung tissues affect the blood capillaries, patients may have the s
                 </p>
             </Collapsible>
             </div>
+
+
+            <hr />
+            <div>
+            <Collapsible label="Knee Pain">
+            <h2>Knee Pain</h2>
+                <p id="overview">Knee pain usually can be shown through knee swelling, limited extension, and flexion function.
+There are many factors that can lead to knee pain, which include the weather, disease, bad living habits, and medicines. Knee pain can also be an indication of height growth for teenagers. However, some diseases can lead to knee pain and may cause serious results if patients do not receive proper treatments.</p>
+            
+                <p id="notes"> <span style={{ fontWeight: 'bold' }}>Degenerative Osteoarthropathy</span> 
+                    <br/>Aging, obesity, and congenital joint abnormalities are a few of the causes of degenerative osteoarthritis.
+The increase in age will lead to a gradual narrowing of the joint space, and this damage is irreversible. There will be obvious joint pain, swelling, limited activity, and other manifestations.
+Also, it causes a series of serious complications such as muscle atrophy and joint malformation and even affects the normal life of patients.
+At present, the main method is to relieve symptoms, extend the life of the joint, and reduce pain.
+                </p>
+
+                <p id="notes"> <span style={{ fontWeight: 'bold' }}>Rheumatoid arthritis</span> 
+                    <br/>Rheumatoid arthritis (RA) is a chronic and systemic disease of unknown etiology, mainly inflammatory synovitis. It is more common in women, and the incidence is 2-3 times higher than that in men. It can occur at any age, with a peak age of 40 to 60 years old.
+Knee pain is very common in patients with rheumatoid arthritis. If swelling and pain in the knee joint occur in the early stage, timely treatment can avoid further development of the disease.
+The main goal of rheumatoid arthritis treatment is to reduce joint inflammation and protect the function of joints and muscles as much as possible.
+It must be emphasized that functional exercise is an important method to maintain joint function in patients with rheumatoid arthritis. When the patients feel joint swelling and pain, joint activity should be appropriately restricted. However, once the swelling pain has reduced, functional exercise should be done without increasing the patient's pain.
+
+                </p>
+                <p id="notes"> <span style={{ fontWeight: 'bold' }}>Gout</span> 
+                    <br/>It is a common and complex form of arthritis that people of all ages may have and is more common in men than in women.
+Gout is a disease caused by high levels of uric acid in the blood, resulting in the deposit of uric acid crystals in the joints, which leads to inflammation of the joints.
+When gout is severe, it can result in joint deformities, bone destruction, and even fractures.
+When it affects the kidneys, it can result in glomerulonephritis and kidney function damage.
+The goal of gout treatment is to prevent the formation of uric acid crystals and reduce the resulting serious joint injury, and kidney damage.
+Lifestyle adjustments can help prevent and treat gout and reduce the excess production of uric acid.
+When it is severe, it is necessary to take some medicine according to the doctor's guidance or take the surgeries.
+                </p>
+                <p id="notes"> <span style={{ fontWeight: 'bold' }}>Myotenositis</span> 
+                    <br/>Tendons are strong fibrous connective tissue that connects bones to muscles. Myotenositis is usually caused by the overuse of muscle fibers and repeated strong pulling.
+
+Ice is usually used for the treatment of myotenositis.
+Severe pain can be locally injected with steroid hormones, which can control inflammation and reduce pain. However, repeated steroid injections are not recommended because multiple injections can weaken the tendon and lead to tendon rupture.
+Taking a thermomassage can help raise your body temperature and improve blood circulation.
+Surgery can also be used to treat myotenositis if other methods are not useful, but there will be big trauma, big pain, and a long recovery period.
+
+                </p>
+                <p id="notes"> <span style={{ fontWeight: 'bold' }}>Synovitis</span> 
+                    <br/> Synovitis is a joint disease in which the synovial membrane is stimulated to produce inflammation, resulting in secretion imbalance and accumulation of fluid.
+The knee joint is the joint with the most synovitis in the whole body, so the knee joint is more common.
+It may cause congestion or edema. Meanwhile, patients will experience joint swelling, pain, joint cavity fluid, limited movement, etc. If not treated in time, it will affect the normal activities of the joint, causing the destruction of the joint and even disabling it.
+Treatment for synovitis includes drugs and surgery. It should be chosen according to the doctors' guidance.
+                </p>
+                
+                <p id='citation'>
+                    cite from <a href="https://www.mayoclinic.org/diseases-conditions/knee-pain/symptoms-causes/syc-20350849" style={{textDecoration: "none", color: "gray"}}>Link 1</a> <a href="https://www.hss.edu/condition-list_synovitis.asp#:~:text=Synovitis%20treatments-,What%20is%20synovitis%3F,inside%20of%20the%20joint%20capsule." style={{textDecoration: "none", color: "gray"}}>Link 2</a>
+                </p>
+            </Collapsible>
+            </div>
+
+
+            <hr />
+            <div>
+            <Collapsible label="Liver Pain">
+            <h2>Liver Pain</h2>
+                <p id="overview">Liver pain is a painful sensation below the right rib. The following disease may cause the symptoms of liver pain:</p>
+            
+                <p id="notes"> <span style={{ fontWeight: 'bold' }}>Liver Cirrhosis</span> 
+                    <br/>Cirrhosis is a common chronic liver disease, which is caused by one or more causes of long-term or repeated action of liver damage.
+With the aggravation of cirrhosis, inflammation of the liver will increase, and the pain nerves distributed on the liver envelope will be stimulated, and the pain symptoms of cirrhosis will appear.
+For the treatment of liver cirrhosis, it is necessary for the patients to stop drinking alcohol.
+Patients need to choose the most suitable drug under the guidance of their doctor. Antiviral drugs reverse fibrosis and early cirrhosis.
+The patients can also receive surgery to get liver transplantation.
+The death rate will increase in the later stage of liver cirrhosis, so it is necessary to go to the hospital for a professional check if the individuals feel liver pain for a long time.
+                </p>
+
+                <p id="notes"> <span style={{ fontWeight: 'bold' }}>Hepatitis</span> 
+                    <br/>It usually refers to the destruction of liver cells by a variety of pathogenic factors - such as viruses, bacteria, chemical poisons, drugs, alcohol, etc., and the function of the liver is damaged, causing a series of physical discomfort symptoms, and abnormal liver function indicators.
+In addition to commonly used over-the-counter drugs, under the guidance of a doctor, fully combine with personal circumstances to choose the most appropriate drugs
+For patients with liver failure, artificial liver support therapy can be performed.
+                </p>
+                <p id="notes"> <span style={{ fontWeight: 'bold' }}>Fatty liver</span> 
+                    <br/>Fatty liver refers to the excessive accumulation of fat in liver cells caused by various reasons.
+If the accumulation of fat in the liver is too much, more than 5% of the weight of the liver or more than 50% of the liver cells have steatosis, it can be called fatty liver.
+Obesity, alcohol, diabetes, and medicines are parts of the reasons for cause fatty liver.
+Treatments for fatty liver are usually made according to the individual. For instance, long-term heavy drinkers should stop drinking alcohol. People with obesity should strictly control their diet to control their weight to normal. Diabetic patients with fatty liver should actively control blood sugar.
+So far, there is no specific drug for the prevention and treatment of fatty liver.
+                </p>
+            
+                
+                <p id='citation'>
+                    cite from <a href="https://www.citymd.com/health-and-wellness/upper-abdominal-liver-pain-heres-what-it-could-be#:~:text=One%20common%20cause%20of%20upper,as%20mono%20or%20a%20parasite." style={{textDecoration: "none", color: "gray"}}>Link 1</a> 
+                </p>
+            </Collapsible>
+            </div>
+
+
             <hr/>
             <div>
             <Collapsible label="Red Eyes">
@@ -235,6 +452,7 @@ When abnormal lung tissues affect the blood capillaries, patients may have the s
                 </p>
             </Collapsible>
             </div>
+
 
             <hr/>
             <div>
@@ -303,6 +521,10 @@ In patients with gastroenteritis, the mucosal barrier in the gastrointestinal tr
                 </p>
             </Collapsible>
             </div>
+
+
+
+
         </div>
     );
 }
